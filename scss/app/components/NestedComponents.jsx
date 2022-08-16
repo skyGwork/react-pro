@@ -19,5 +19,3 @@ const Perspn = () => {
 const Message = () => <p>Its like the web developer</p>;
 
 export default App;
-
-

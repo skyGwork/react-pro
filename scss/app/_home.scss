@@ -3,14 +3,13 @@ body {
     @include widthAuto;
   }
 }
-// form {
-//   @include respond(noteBook1200mx) {
-//     margin: 2rem auto;
-//     max-width: 80%;
-//   }
+// for testing only
+
+// #hey {
+//   background-color: aqua;
 // }
 
-// @media (min-resolution:192dpi){
-// high res . image
-// background-image: url(../images/)
+
+// .greet {
+//   background-color: rgb(55, 0, 255);
 // }
