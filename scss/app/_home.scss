@@ -9,7 +9,35 @@ body {
 //   background-color: aqua;
 // }
 
-
 // .greet {
 //   background-color: rgb(55, 0, 255);
+// }
+
+// .book_section {
+// display: flex;
+// justify-content: space-around;
+// }
+
+// .book {
+// margin: 2rem;
+// padding: 2rem;
+// background-color: var(--white);
+// }
+
+.book_section {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .book_section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+// .book {
+// margin: 2rem;
+// padding: 2rem;
+// background-color: var(--white);
 // }

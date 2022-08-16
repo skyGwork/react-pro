@@ -1,23 +1,36 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable jsx-a11y/anchor-is-valid */
-// import './sel.PNG';
-
 import React from 'react';
 
 function App() {
   return (
-    <div className="greet" id="hey">
-      <Perspn />
-      <Message />
-    </div>
+    <section className='book_section'>
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+    </section>
   );
 }
-
-const Perspn = () => {
-  return <h1>webphin</h1>;
+const Book = (params) => {
+  return (
+    <article className='book'>
+      <Image />
+      <Title />
+      <Auther />
+    </article>
+  );
 };
-const Message = () => <p>Its like the web developer</p>;
 
+const Image = () => (
+  <img
+    src="https://images-eu.ssl-images-amazon.com/images/I/71g2ednj0JL._AC_UL604_SR604,400_.jpg"
+    alt="book"
+  />
+);
+const Title = () => {
+  return <h4>The Psychology of Money</h4>;
+};
+const Auther = () => {
+  return <p>Morgan Housel</p>;
+};
 export default App;
-
-

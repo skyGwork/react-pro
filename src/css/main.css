@@ -193,4 +193,18 @@ form input {
   }
 }
 
+.book_section {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .book_section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
