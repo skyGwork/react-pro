@@ -2,7 +2,13 @@ import React from 'react';
 
 function App() {
   return (
-    <section className='book_section'>
+    <section className="book_section">
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
       <Book />
       <Book />
       <Book />
@@ -13,7 +19,7 @@ function App() {
 }
 const Book = (params) => {
   return (
-    <article className='book'>
+    <article className="book">
       <Image />
       <Title />
       <Auther />
@@ -33,4 +39,5 @@ const Title = () => {
 const Auther = () => {
   return <p>Morgan Housel</p>;
 };
+
 export default App;

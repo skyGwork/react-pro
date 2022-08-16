@@ -1,8 +1,8 @@
-body {
-  @include respond(noteBook1200mx) {
-    @include widthAuto;
-  }
-}
+// body {
+//   @include respond(noteBook1200mx) {
+//     @include widthAuto;
+//   }
+// }
 // for testing only
 
 // #hey {
@@ -36,8 +36,12 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-// .book {
-// margin: 2rem;
-// padding: 2rem;
-// background-color: var(--white);
-// }
+.book {
+  border-radius: var(--borderRadius);
+  padding: 2rem;
+  background-color: var(--white);
+  h4 {
+    color: var(--textColor);
+    margin-top: 1rem;
+  }
+}
