@@ -37,7 +37,11 @@ const Title = () => {
   return <h4>The Psychology of Money</h4>;
 };
 const Auther = () => {
-  return <p>Morgan Housel</p>;
+  return (
+    <p style={{ color: '#617d98', fontSize: '1.5rem', marginTop: '.25rem' }}>
+      Morgan Housel
+    </p>
+  );
 };
 
 export default App;
