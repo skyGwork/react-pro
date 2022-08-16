@@ -1,6 +1,8 @@
+import React from 'react';
+
 function App() {
   return (
-    <main>
+    <React.Fragment>
       <header className="App-header">
         <a
           className="App-link"
@@ -11,7 +13,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </main>
+    </React.Fragment>
   );
 }
 
