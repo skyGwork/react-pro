@@ -112,19 +112,19 @@ form {
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
   margin: 3rem auto;
-}
-form label {
-  display: block;
-  font-size: var(--smallText);
-  margin-bottom: 0.75rem;
-  text-transform: capitalize;
-  letter-spacing: var(--letterSpacing);
-}
-form input {
-  width: 100%;
-  padding: 0.75rem 1rem;
-  border-radius: var(--borderRadius);
-  background: var(--backgroundColor);
-  border: 1px solid var(--grey-200);
-  margin-bottom: 2rem;
+  label  {
+    display: block;
+    font-size: var(--smallText);
+    margin-bottom: 0.75rem;
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+  }
+  input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: var(--borderRadius);
+    background: var(--backgroundColor);
+    border: 1px solid var(--grey-200);
+    margin-bottom: 2rem;
+  }
 }
