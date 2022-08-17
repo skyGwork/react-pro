@@ -48,8 +48,6 @@ h5 {
   font-family: var(--head);
   font-weight: 600;
   line-height: 1.3;
-  text-transform: capitalize;
-  letter-spacing: var(--letterSpacing);
 }
 
 h1 {
@@ -107,26 +105,28 @@ button {
 
 /* form */
 form {
+  margin: 3rem auto;
   width: 60vw;
   max-width: var(--fixed-width);
   background: var(--white);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
-  margin: 3rem auto;
-}
-form label {
-  display: block;
-  font-size: var(--smallText);
-  margin-bottom: 0.75rem;
-  text-transform: capitalize;
-  letter-spacing: var(--letterSpacing);
-}
-form input {
-  width: 100%;
-  padding: 0.75rem 1rem;
-  border-radius: var(--borderRadius);
-  background: var(--backgroundColor);
-  border: 1px solid var(--grey-200);
-  margin-bottom: 2rem;
+
+  label {
+    display: block;
+    font-size: var(--smallText);
+    margin-bottom: 0.75rem;
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+  }
+
+  input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: var(--borderRadius);
+    background: var(--backgroundColor);
+    border: 1px solid var(--grey-200);
+    margin-bottom: 2rem;
+  }
 }
