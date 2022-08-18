@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Book = ({ img, title, auther }) => {
   const likeHandler = () => {
     alert('@You liked this book!');
