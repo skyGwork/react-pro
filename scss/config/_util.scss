@@ -1,11 +1,11 @@
 .u_btn {
   /* customize */
-  background: var(--primary-500);
+  background: var(--grey-500);
   color: var(--white);
   box-shadow: var(--shadow-1);
   transition: var(--transition);
 }
 .u_btn:hover {
-  background: var(--primary-700);
+  background: var(--grey-700);
   box-shadow: var(--shadow-3);
 }
