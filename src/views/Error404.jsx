@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const Page404 = () => {
+const Error404 = () => {
   return (
     <section className="section">
       <h2>404</h2>
@@ -9,4 +9,4 @@ const Page404 = () => {
     </section>
   );
 };
-export default Page404;
+export default Error404;
