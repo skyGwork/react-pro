@@ -1,29 +1,3 @@
-// body {
-//   @include respond(noteBook1200mx) {
-//     @include widthAuto;
-//   }
-// }
-// for testing only
-
-// #hey {
-//   background-color: aqua;
-// }
-
-// .greet {
-//   background-color: rgb(55, 0, 255);
-// }
-
-// .book_section {
-// display: flex;
-// justify-content: space-around;
-// }
-
-// .book {
-// margin: 2rem;
-// padding: 2rem;
-// background-color: var(--white);
-// }
-
 .book_section {
   width: 90vw;
   max-width: 1170px;
@@ -44,4 +18,10 @@
     color: var(--textColor);
     margin-top: 1rem;
   }
+  p {
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    color: #f58686;
+  }
+  span{font-size: 1.6rem;}
 }

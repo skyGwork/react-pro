@@ -18,12 +18,12 @@ function App() {
         title={firstBook.title}
         auther={firstBook.auther}
       >
-        <span>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquam
           saepe sunt ex exercitationem optio provident nobis eius a veniam
           obcaecati perspiciatis, quasi, maxime non cum minus? Facere, officiis
           ipsa.
-        </span>
+        </p>
       </Book>
 
       <Book
@@ -34,8 +34,7 @@ function App() {
     </section>
   );
 }
-const Book = (props) => {
-  const { img, title, auther, children } = props;
+const Book = ({ img, title, auther, children }) => {
   return (
     <article className="book">
       <img src={img} alt="book" />
@@ -45,5 +44,26 @@ const Book = (props) => {
     </article>
   );
 };
+
+// const Book = (props) => {
+//   const { img, title, auther } = props;
+//   return (
+//     <article className="book">
+//       <img src={img} alt="book" />
+//       <h4>{title} </h4>
+//       <p>{auther}</p>
+//     </article>
+//   );
+// };
+
+// const Book = (props) => {
+//   return (
+//     <article className="book">
+//       <img src={props.img} alt="book" />
+//       <h4>{props.title} </h4>
+//       <p>{props.auther}</p>
+//     </article>
+//   );
+// };
 
 export default App;
