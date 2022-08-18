@@ -19,6 +19,12 @@ const books = [
     title: 'The Psychology of Money',
     auther: 'Morgan Housel',
   },
+  {
+    id: 2,
+    img: 'https://images-eu.ssl-images-amazon.com/images/I/71sBtM3Yi5L._AC_UL604_SR604,400_.jpg',
+    title: 'Subconscious Mind',
+    auther: 'Joseph Murphy',
+  },
 ];
 
 function App() {
@@ -31,12 +37,25 @@ function App() {
   );
 }
 const Book = ({ img, title, auther }) => {
-  // const { img, title, auther } = props;
+  const likeHandler = () => {
+    alert('@You liked this book!');
+  };
+
   return (
-    <article className="book">
+    <article
+      className="book"
+      onClick={() => {
+        alert('@ Great Choice!');
+      }}
+    >
       <img src={img} alt="book" />
-      <h4>{title} </h4>
+      <h4 onClick={() => alert('This book is available in stock')}>{title} </h4>
       <p>{auther}</p>
+      <div>
+        <button type="button" onClick={likeHandler} className="u_btn">
+          Like
+        </button>
+      </div>
     </article>
   );
 };

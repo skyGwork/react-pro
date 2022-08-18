@@ -180,6 +180,7 @@ form input {
 .u_btn:hover {
   background: var(--grey-700);
   box-shadow: var(--shadow-3);
+  cursor: pointer;
 }
 
 .book_section {
@@ -204,10 +205,23 @@ form input {
   color: var(--textColor);
   margin-top: 1rem;
 }
+.book h4:hover {
+  background: var(--red-light);
+  cursor: pointer;
+}
 .book p {
   font-size: 1.4rem;
   margin: 1rem 0;
   color: #f58686;
+}
+.book div {
+  display: flex;
+  justify-content: center;
+}
+
+.book:hover {
+  background: var(--grey-200);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

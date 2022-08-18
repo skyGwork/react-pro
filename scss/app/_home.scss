@@ -5,6 +5,7 @@
   display: grid;
   gap: 2rem;
 }
+
 @media screen and (min-width: 768px) {
   .book_section {
     grid-template-columns: repeat(3, 1fr);
@@ -18,9 +19,21 @@
     color: var(--textColor);
     margin-top: 1rem;
   }
+  h4:hover {
+    background: var(--red-light);
+    cursor: pointer;
+  }
   p {
     font-size: 1.4rem;
     margin: 1rem 0;
     color: #f58686;
   }
+  div {
+    display: flex;
+    justify-content: center;
+  }
+}
+.book:hover {
+  background: var(--grey-200);
+  cursor: pointer;
 }
