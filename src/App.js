@@ -30,8 +30,8 @@ function App() {
     </section>
   );
 }
-const Book = (props) => {
-  const { img, title, auther } = props;
+const Book = ({ img, title, auther }) => {
+  // const { img, title, auther } = props;
   return (
     <article className="book">
       <img src={img} alt="book" />
