@@ -12,9 +12,7 @@ function App() {
         <Route>
           <Route path="/" element={<HomeView />} />
           <Route path="/book-list" element={<BookList />} />
-
           <Route path="*" element={<Error404 />} />
-        </Route>
           <Route
             path="/contact"
             element={
@@ -24,6 +22,7 @@ function App() {
               </div>
             }
           />
+        </Route>
       </Routes>
       <footer> footer</footer>
     </BrowserRouter>
