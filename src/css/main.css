@@ -204,5 +204,13 @@ form input {
   color: var(--textColor);
   margin-top: 1rem;
 }
+.book p {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  color: #f58686;
+}
+.book span {
+  font-size: 1.6rem;
+}
 
 /*# sourceMappingURL=main.css.map */
