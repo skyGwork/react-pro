@@ -3,17 +3,17 @@ import products from '../model/product';
 
 const Products = () => {
   return (
-    <section className='section'>
-      <div className='products'>
-        {products.map((product) => {
+    <section className="section">
+      <div className="products">
+        {products.map((e) => {
           return (
-            <article key={product.id}>
-              <h5>{product.name}</h5>
-              <Link to={`/products/${product.id}`}>more info</Link>
+            <article key={e.id}>
+              <h5>{e.name}</h5>
+              <Link to={`/products/${e.id}`}>more info</Link>
             </article>
           );
         })}
-      </div> 
+      </div>
     </section>
   );
 };

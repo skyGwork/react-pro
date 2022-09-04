@@ -8,11 +8,13 @@ import ContactUs from './views/ContactUs';
 import SharedLayout from './views/SharedLayout';
 import SingleProduct from './views/SingleProduct';
 import Products from './views/Products';
-
+import Header from './views/Header';
+import Footer from './views/Footer';
 function App() {
   return (
     <BrowserRouter>
-      <nav> navbar to be added</nav>
+      <Header />
+      {/* <nav> navbar to be added</nav> */}
       <Routes>
         <Route>
           <Route path="/" element={<SharedLayout />}>
@@ -28,7 +30,7 @@ function App() {
           </Route>
         </Route>
       </Routes>
-      <footer> footer to be added</footer>
+      <Footer />
     </BrowserRouter>
   );
 }
