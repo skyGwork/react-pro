@@ -1,24 +1,34 @@
 //  MAX-WIDTH till---this point
+//  max-width : Descending Order **>** 1260 **>** 912 **>** 850 **>** 640 **>** 430
+
 //  MIN-WIDTH from---this point
-//  1 em = 16px, so: 450/16 = 28.125em
-//  max-width : Descending Order **>** 1200 **>** 912 **>** 850 **>** 640 **>** 430
 //  min-width : Ascending Order **>** 1760 **>** 2240 if required
+
+//  1 em = 16px, so: 1260/16 = 75em
+//  1 em = 16px, so: 900/16 = 56.25em
+//  1 em = 16px, so: 600/16 = 37.5em
 
 // FONT DESC
 //  1rem = 10px; 10/16 = 62.5%
 //  1 rem = 9px, 9/16 = 56.25%
 //  1 rem = 8px, 8/16 = 50%
+
 //  1rem = 14px, 14/16 = 87.5%
 
 @mixin respond($breakpoint) {
-  @if $breakpoint==noteBook1200mx {
-    @media only screen and (max-width: 75em) {
+  @if $breakpoint==noteBook1260mx {
+    @media only screen and (max-width: 78.75em) {
       @content;
     }
   }
 
   @if $breakpoint==tab900mx {
     @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint==tab800mx {
+    @media only screen and (max-width: 50em) {
       @content;
     }
   }

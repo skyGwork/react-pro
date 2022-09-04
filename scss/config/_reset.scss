@@ -20,7 +20,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 
-  @include respond(noteBook1200mx) {
+  @include respond(noteBook1260mx) {
     font-size: 56.25%;
   }
   @include respond(tab900mx) {
@@ -45,11 +45,9 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--head);
-  font-weight: 600;
+  font-family: var(--subhead);
+  font-weight: bold;
   line-height: 1.3;
-  text-transform: capitalize;
-  letter-spacing: var(--letterSpacing);
 }
 
 h1 {
@@ -74,10 +72,11 @@ h5 {
 
 small {
   font-size: var(--smallText);
+  display: block;
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 a {
@@ -97,11 +96,14 @@ img {
 
 button {
   /* basic */
+  cursor: pointer;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
   display: inline-block;
   text-transform: capitalize;
   border: transparent;
-  padding: 0.75rem 1.5rem;
-  border-radius: var(--borderRadius);
+  padding: 1rem 2rem;
+  // border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
 }
 
@@ -114,19 +116,19 @@ form {
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
   margin: 3rem auto;
-}
-form label {
-  display: block;
-  font-size: var(--smallText);
-  margin-bottom: 0.75rem;
-  text-transform: capitalize;
-  letter-spacing: var(--letterSpacing);
-}
-form input {
-  width: 100%;
-  padding: 0.75rem 1rem;
-  border-radius: var(--borderRadius);
-  background: var(--backgroundColor);
-  border: 1px solid var(--grey-200);
-  margin-bottom: 2rem;
+  label {
+    display: block;
+    font-size: var(--smallText);
+    margin-bottom: 0.75rem;
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+  }
+  input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: var(--borderRadius);
+    background: var(--backgroundColor);
+    border: 1px solid var(--grey-200);
+    margin-bottom: 2rem;
+  }
 }

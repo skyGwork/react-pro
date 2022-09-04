@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-// import './sel.PNG';
+
+import logo from '../sel.PNG';
 
 import React from 'react';
 
@@ -13,7 +14,7 @@ function App() {
           <a href="#"> Explore React</a>
         </li>
       </ul>
-      <img src="../sel.PNG" alt="logo" />
+      <img src={logo} alt="logo" />
 
       <input type="text" name="" id="" />
     </div>
