@@ -8,7 +8,6 @@ const SharedLayout = () => {
     <>
       {/* <Navbar /> */}
       <StyledNavbar />
-
       <Outlet />
     </>
   );
