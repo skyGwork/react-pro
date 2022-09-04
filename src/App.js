@@ -25,12 +25,12 @@ function App() {
         <ul>
           <li>
             <a href="https://www.skyinnk.com/" target="_blank">
-              <span class="material-symbols-outlined  menu">menu</span>
+              <span className="material-symbols-outlined  menu">menu</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <span class="material-symbols-outlined search">search</span>
+              <span className="material-symbols-outlined search">search</span>
             </a>
           </li>
         </ul>
@@ -41,7 +41,7 @@ function App() {
         <form action="/#">
           <input type="text" placeholder="Search.." name="search2" />
           <button type="submit">
-            <span class="material-symbols-outlined search">search</span>
+            <span className="material-symbols-outlined search">search</span>
           </button>
         </form>
       </div>
