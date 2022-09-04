@@ -17,11 +17,14 @@ function App() {
         <Route>
           <Route path="/" element={<SharedLayout />}>
             <Route index element={<HomeView />} />
+            {/* " /book-list or book-list" All are nested inside home route "/" */}
             <Route path="book-list" element={<BookList />} />
             <Route path="contact" element={<ContactUs />} />
             <Route path="products" element={<Products />} />
-            {/* <Route path="products/productId" element={<SingleProduct />} /> */}
             <Route path="*" element={<Error404 />} />
+
+            {/* URL PARAMS */}
+            <Route path="products/:productId" element={<SingleProduct />} />
           </Route>
         </Route>
       </Routes>
