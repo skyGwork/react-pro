@@ -24,8 +24,8 @@ const books = [
 function App() {
   return (
     <section className="book_section">
-      {books.map((book) => {
-        return <Book key={book.id} book={book} />;
+      {books.map((e) => {
+        return <Book key={e.id} book={e} />;
       })}
     </section>
   );
