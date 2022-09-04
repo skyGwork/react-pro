@@ -19,10 +19,7 @@ function App() {
         auther={firstBook.auther}
       >
         <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquam
-          saepe sunt ex exercitationem optio provident nobis eius a veniam
-          obcaecati perspiciatis, quasi, maxime non cum minus? Facere, officiis
-          ipsa.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, aliquam! Maiores, similique. 
         </span>
       </Book>
 

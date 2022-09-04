@@ -19,10 +19,7 @@ function App() {
         auther={firstBook.auther}
       >
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquam
-          saepe sunt ex exercitationem optio provident nobis eius a veniam
-          obcaecati perspiciatis, quasi, maxime non cum minus? Facere, officiis
-          ipsa.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ea!
         </p>
       </Book>
 
