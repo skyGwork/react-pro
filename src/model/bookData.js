@@ -1,3 +1,4 @@
+//! named export
 export const books = [
   {
     id: 1,
@@ -24,3 +25,8 @@ export const books = [
     auther: 'Joseph Murphy',
   },
 ];
+// !default
+// export default books;
+
+// ! named
+// export { books };
