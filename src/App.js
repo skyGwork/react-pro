@@ -34,14 +34,16 @@ function App() {
             </a>
           </li>
         </ul>
-        <div className="search-display">
-          <form action="/#">
-            <input type="text" placeholder="Search.." name="search2" />
-            <button type="submit">
-              <span class="material-symbols-outlined search">search</span>
-            </button>
-          </form>
-        </div>
+      </div>
+      
+      {/* search display box */}
+      <div className="search-display">
+        <form action="/#">
+          <input type="text" placeholder="Search.." name="search2" />
+          <button type="submit">
+            <span class="material-symbols-outlined search">search</span>
+          </button>
+        </form>
       </div>
     </div>
   );
